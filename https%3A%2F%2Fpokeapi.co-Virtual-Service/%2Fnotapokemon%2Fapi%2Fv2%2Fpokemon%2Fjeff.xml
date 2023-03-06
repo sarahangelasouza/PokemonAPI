@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/notapokemon/api/v2/pokemon/jeff" method="GET" resourcePath="/notapokemon/api/v2/pokemon/jeff" id="2422e758-245b-4ce8-995b-c5b62024aa2b" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="2422e758-245b-4ce8-995b-c5b62024aa2bfileName">%2Fnotapokemon%2Fapi%2Fv2%2Fpokemon%2Fjeff</con:setting>
+  </con:settings>
+  <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+  <con:dispatchConfig/>
+  <con:dispatchXPath/>
+  <con:routeEnabled>true</con:routeEnabled>
+  <con:routeScript/>
+  <con:saveRoutedResponse>true</con:saveRoutedResponse>
+  <con:response name="Response 1" id="6b6201d2-75fd-4d03-8661-930f5a901945" httpResponseStatus="404" mediaType="text/html" encoding="utf-8" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570">
+    <con:settings/>
+    <con:responseContent><![CDATA[<!DOCTYPE html><html lang="en"><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MD89GGQ');</script><meta name="generator" content="React Static"><title data-react-helmet="true">Page Not Found - Pok&#xE9;API</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no"><meta data-react-helmet="true" property="og:type" content="website"><meta data-react-helmet="true" name="Description" content="An open RESTful API for Pok&#xE9;mon data"><meta data-react-helmet="true" property="keywords" content="pokemon pok&#xE9;mon API REST free"><meta data-react-helmet="true" property="og:image" content="/static/pokeapi_256.3fa72200.png"><meta data-react-helmet="true" property="description" content="An open RESTful API for Pok&#xE9;mon data"><link rel="preload" as="script" href="/templates/styles.2e836084.js"><link rel="preload" as="script" href="/templates/vendors~main.17a02a7f.js"><link rel="preload" as="script" href="/main.29c76cc4.js"><link rel="preload" as="style" href="/styles.ee4e7b91.css"><link rel="stylesheet" href="/styles.ee4e7b91.css"><link data-react-helmet="true" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"><link data-react-helmet="true" rel="icon" href="/pokeapi_192_square.png"></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD89GGQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="root"><div id="site-header" class="Header-module__headerwrapper--2Yq6L"><header class="Header-module__header--3xzeo"><a class="Header-module__homelink--1N9Da" title="Pok&#xE9;API" href="/"><img src="/static/pokeapi_256.3fa72200.png" alt="Pok&#xE9;API"></a><nav class="Header-module__nav--25Sms"><a class="Header-module__link--zKtyy" href="/">Home</a><a class="Header-module__link--zKtyy" href="/about">About</a><a class="Header-module__link--zKtyy" href="/docs/v2">API v2</a><a class="Header-module__link--zKtyy" href="/docs/graphql">GraphQL v1beta</a></nav></header></div><main id="site-content"><div class="Page-module__page--mC5go"><div class="Page-module__constrain_width--N2xeq"><h1>404 &#x2013; Page Not Found</h1><p>We couldn&apos;t find what you were looking for.</p><p>Please contact the owner of the site that linked you to the original URL and let them know their link is broken.</p></div></div></main><footer id="site-footer" class="Footer-module__footer--3nalg"><div class="Footer-module__container--yg5jX"><div>Created by <a href="https://phalt.github.io/">Paul Hallett</a> and other <a href="https://github.com/PokeAPI/pokeapi#contributing">Pok&#xE9;API contributors</a> around the world. Pok&#xE9;mon and Pok&#xE9;mon character names are trademarks of Nintendo.</div><div><a href="https://pokeapi.statuspage.io/"><img alt="Status" src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=status&amp;query=%24.status.description&amp;url=https%3A%2F%2Fzlfyqp3hlvly.statuspage.io%2Fapi%2Fv2%2Fsummary.json"></a></div></div></footer></div><script type="text/javascript">window.__routeInfo = JSON.parse("{\"template\":\"__react_static_root__/src/pages/404.js\",\"sharedHashesByProp\":{},\"data\":{},\"path\":\"404\",\"sharedData\":{},\"siteData\":{\"alerts\":[{\"htmlMessage\":\"<p>PokeAPI proudly announces Beta support for GraphQL. Access our free console at <a href=\\\"https://beta.pokeapi.co/graphql/console/\\\">beta.pokeapi.co/graphql/console</a> and take a look at the <a href=\\\"/docs/graphql\\\">documentation</a></p>\\n\",\"level\":\"success\",\"id\":\"359b722e\"},{\"htmlMessage\":\"<p><strong>Sword and Shield</strong> data might be inaccurate and lacking in various aspects due to the fact that it is not taken directly from Nintendo&#39;s Pokemon ROMs. If you spot any mistake, please report it <a href=\\\"https://github.com/PokeAPI/pokedex/issues\\\">here</a></p>\\n\",\"level\":\"info\",\"id\":\"c5278044\"}]}}");</script><script defer type="text/javascript" src="/templates/styles.2e836084.js"></script><script defer type="text/javascript" src="/templates/vendors~main.17a02a7f.js"></script><script defer type="text/javascript" src="/main.29c76cc4.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7a12234c9a50e758","version":"2023.2.0","r":1,"token":"9fbcf60ab0bc4d7d9c24cc0a2b3b7af0","si":100}' crossorigin="anonymous"></script>
+</body></html>]]></con:responseContent>
+    <con:header>
+      <con:name>Server</con:name>
+      <con:value>cloudflare</con:value>
+    </con:header>
+    <con:header>
+      <con:name>CF-RAY</con:name>
+      <con:value>7a12234c9a50e758-EWR</con:value>
+    </con:header>
+    <con:header>
+      <con:name>vary</con:name>
+      <con:value>x-fh-requested-host, accept-encoding</con:value>
+    </con:header>
+    <con:header>
+      <con:name>Server-Timing</con:name>
+      <con:value>cf-q-config;dur=6.9999987317715e-06</con:value>
+    </con:header>
+    <con:header>
+      <con:name>Connection</con:name>
+      <con:value>keep-alive</con:value>
+    </con:header>
+    <con:header>
+      <con:name>x-served-by</con:name>
+      <con:value>cache-lga21942-LGA</con:value>
+    </con:header>
+    <con:header>
+      <con:name>Date</con:name>
+      <con:value>Wed, 01 Mar 2023 14:37:25 GMT</con:value>
+    </con:header>
+    <con:header>
+      <con:name>strict-transport-security</con:name>
+      <con:value>max-age=31556926</con:value>
+    </con:header>
+    <con:header>
+      <con:name>x-cache-hits</con:name>
+      <con:value>0</con:value>
+    </con:header>
+    <con:header>
+      <con:name>last-modified</con:name>
+      <con:value>Thu, 09 Feb 2023 11:04:14 GMT</con:value>
+    </con:header>
+    <con:header>
+      <con:name>CF-Cache-Status</con:name>
+      <con:value>DYNAMIC</con:value>
+    </con:header>
+    <con:header>
+      <con:name>Cache-Control</con:name>
+      <con:value>max-age=3600</con:value>
+    </con:header>
+    <con:header>
+      <con:name>NEL</con:name>
+      <con:value>{"success_fraction":0,"report_to":"cf-nel","max_age":604800}</con:value>
+    </con:header>
+    <con:header>
+      <con:name>Report-To</con:name>
+      <con:value>{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kCtqwhnapvNxUaWpybLzAnLYvuhVnX634igXOugwtOTdJ5lvlEIITlcboYnJry5tj3oXEZUahExhW%2BOkZjAhA3%2BdSXm%2FhNiPRsbGAzMaXUjvhp1xA%2Bq7rYTikF%2B4"}],"group":"cf-nel","max_age":604800}</con:value>
+    </con:header>
+    <con:header>
+      <con:name>x-timer</con:name>
+      <con:value>S1677681446.871478,VS0,VE93</con:value>
+    </con:header>
+    <con:header>
+      <con:name>x-cache</con:name>
+      <con:value>MISS</con:value>
+    </con:header>
+    <con:header>
+      <con:name>alt-svc</con:name>
+      <con:value>h3=":443"; ma=86400, h3-29=":443"; ma=86400</con:value>
+    </con:header>
+  </con:response>
+</con:restMockAction>

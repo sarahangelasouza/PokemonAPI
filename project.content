@@ -1,0 +1,8 @@
+https%3A%2F%2Fpokeapi.co\PokemonName.xml
+https%3A%2F%2Fpokeapi.co-Test-Suite\https%3A%2F%2Fpokeapi.co-Test-Case-1.xml
+https%3A%2F%2Fpokeapi.co-Test-Suite\Test-Case-2.xml
+Load-Test-1.xml
+https%3A%2F%2Fpokeapi.co-Virtual-Service\%2Fapi%2Fv2%2Fpokemon%2F%7Bpokemon_name%7D.xml
+https%3A%2F%2Fpokeapi.co-Virtual-Service\%2Fnotapokemon%2Fapi%2Fv2%2Fpokemon%2Fjeff.xml
+https%3A%2F%2Fpokeapi.co-Virtual-Service\%2Fnotapokemon%2Fapi%2Fv2%2Fpokemon%2Fcharmander.xml
+https%3A%2F%2Fpokeapi.co-Virtual-Service-2\%2Fapi%2Fv2%2Fpokemon%2F%7Bpokemon_name%7D.xml
