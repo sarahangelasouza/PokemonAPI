@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testSuite id="ae76548f-62cf-4c5a-be31-071647e797f9" name="https://pokeapi.co Test Suite" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:testSuite xmlns:con="http://eviware.com/soapui/config" id="ae76548f-62cf-4c5a-be31-071647e797f9" name="https://pokeapi.co Test Suite">
+  <con:settings id="0cd5124c-cd22-45e3-9e61-95295eb4c231">
     <con:setting id="ae76548f-62cf-4c5a-be31-071647e797f9fileName">https%3A%2F%2Fpokeapi.co-Test-Suite</con:setting>
   </con:settings>
   <con:runType>SEQUENTIAL</con:runType>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:restMockService port="8092" path="/notapokemon" host="localhost" name="https://pokeapi.co Virtual Service 2" routeModeEnabled="true" routeEndpoint="" id="5608e72a-bbc7-4fed-8330-8c60cd773068" addUnmatchedOperation="true" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:restMockService xmlns:con="http://eviware.com/soapui/config" port="8092" path="/notapokemon" host="localhost" name="https://pokeapi.co Virtual Service 2" routeModeEnabled="true" routeEndpoint="" id="5608e72a-bbc7-4fed-8330-8c60cd773068" addUnmatchedOperation="true">
+  <con:settings id="ad64681e-e7ba-4100-8668-13a0c4a30312">
     <con:setting id="5608e72a-bbc7-4fed-8330-8c60cd773068fileName">https%3A%2F%2Fpokeapi.co-Virtual-Service-2</con:setting>
   </con:settings>
   <con:properties/>

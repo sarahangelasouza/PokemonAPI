@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase xmlns:con="http://eviware.com/soapui/config" id="d008753a-6635-48b9-a210-e83516f3a85b" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="https://pokeapi.co Test Case 1" searchProperties="true" timeout="0">
-  <con:settings id="468666c8-4426-43ab-8362-756b2237d26f">
-    <con:setting id="d008753a-6635-48b9-a210-e83516f3a85bfileName">https%3A%2F%2Fpokeapi.co-Test-Case-1</con:setting>
+<con:testCase xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="0d05a9ea-4263-4987-82cb-b71345dc78c3" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case 3" searchProperties="true" timeout="0">
+  <con:settings id="ef4616e8-884b-4c7c-944d-9db40aaeccee">
+    <con:setting id="0d05a9ea-4263-4987-82cb-b71345dc78c3fileName">Test-Case-3</con:setting>
   </con:settings>
-  <con:testStep type="restrequest" name="Request 1" id="1827f673-75a8-4dab-9464-bd4d048eaeff">
+  <con:testStep type="restrequest" name="REST Request" id="0b9c8e10-9f69-4015-91e1-b1dd75adbe98">
     <con:settings/>
-    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="https://pokeapi.co" resourcePath="/api/v2/pokemon/{pokemon_name}" methodName="GetPokemonInfo" xsi:type="con:RestRequestStep">
-      <con:restRequest name="Request 1" id="3083215e-63c8-4921-b446-55fd1318d0ba" mediaType="application/json">
+    <con:config service="https://pokeapi.co" resourcePath="/api/v2/pokemon/{pokemon_name}" methodName="GetPokemonInfo" xsi:type="con:RestRequestStep">
+      <con:restRequest name="REST Request" id="3083215e-63c8-4921-b446-55fd1318d0ba" mediaType="application/json">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
         <con:endpoint>https://pokeapi.co</con:endpoint>
         <con:request/>
         <con:originalUri>https://pokeapi.co/api/v2/pokemon/pikachu</con:originalUri>
-        <con:assertion type="Valid HTTP Status Codes" id="c9845869-ef94-4439-90d5-186b81841bd2" name="Valid HTTP Status Codes">
+        <con:assertion type="Valid HTTP Status Codes" id="551973e3-c92b-4849-b500-2b7bb24816a4" name="Valid HTTP Status Codes">
           <con:settings/>
           <con:configuration>
             <codes>200</codes>
           </con:configuration>
         </con:assertion>
-        <con:assertion type="Response SLA Assertion" id="5775bc2e-4580-4934-9c79-a015d12347c9" name="Response SLA">
+        <con:assertion type="Response SLA Assertion" id="e4832c75-a2c8-4033-be41-a5a53d7d078e" name="Response SLA">
           <con:configuration>
             <SLA>200</SLA>
           </con:configuration>
@@ -30,7 +30,7 @@
         </con:credentials>
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:parameters>
-          <con:entry key="pokemon_name" value="charmander"/>
+          <con:entry key="pokemon_name" value="${#Project#SomeName}"/>
         </con:parameters>
         <con:parameterOrder>
           <con:entry>pokemon_name</con:entry>
@@ -48,12 +48,4 @@
   </con:testStep>
   <con:properties/>
   <con:reportParameters/>
-  <con:environmentSpec>
-    <con:entry environmentId="d44ddad8-9168-4b28-acb3-f5ca870102f3">
-      <con:authProfile>Inherit From Parent</con:authProfile>
-    </con:entry>
-    <con:entry environmentId="d1b8412f-f25e-434b-981e-1a2c68f298fb">
-      <con:authProfile>Inherit From Parent</con:authProfile>
-    </con:entry>
-  </con:environmentSpec>
 </con:testCase>

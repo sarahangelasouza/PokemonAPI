@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:restMockAction name="/notapokemon/api/v2/pokemon/jeff" method="GET" resourcePath="/notapokemon/api/v2/pokemon/jeff" id="2422e758-245b-4ce8-995b-c5b62024aa2b" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:restMockAction xmlns:con="http://eviware.com/soapui/config" name="/notapokemon/api/v2/pokemon/jeff" method="GET" resourcePath="/notapokemon/api/v2/pokemon/jeff" id="2422e758-245b-4ce8-995b-c5b62024aa2b">
+  <con:settings id="0267bd99-1b3a-48a5-bb08-625f54f4e4d0">
     <con:setting id="2422e758-245b-4ce8-995b-c5b62024aa2bfileName">%2Fnotapokemon%2Fapi%2Fv2%2Fpokemon%2Fjeff</con:setting>
   </con:settings>
   <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
@@ -9,7 +9,7 @@
   <con:routeEnabled>true</con:routeEnabled>
   <con:routeScript/>
   <con:saveRoutedResponse>true</con:saveRoutedResponse>
-  <con:response name="Response 1" id="6b6201d2-75fd-4d03-8661-930f5a901945" httpResponseStatus="404" mediaType="text/html" encoding="utf-8" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570">
+  <con:response name="Response 1" id="6b6201d2-75fd-4d03-8661-930f5a901945" httpResponseStatus="404" mediaType="text/html" encoding="utf-8" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200035a000a636f6d707265737365644c000b636f6d7072657373696f6e74003d4c636f6d2f657669776172652f736f617075692f696d706c2f737570706f72742f436f6d7072657373656456616c756524436f6d7072657373696f6e3b5b0004646174617400025b427870007e72003b636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c756524436f6d7072657373696f6e00000000000000001200007872000e6a6176612e6c616e672e456e756d000000000000000012000078707400044e4f4e4570" dataSource="">
     <con:settings/>
     <con:responseContent><![CDATA[<!DOCTYPE html><html lang="en"><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

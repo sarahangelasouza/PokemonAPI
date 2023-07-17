@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="cd155ac0-cd1f-46db-a3a7-dc69379cb141" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case 2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:testCase xmlns:con="http://eviware.com/soapui/config" id="cd155ac0-cd1f-46db-a3a7-dc69379cb141" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case 2" searchProperties="true" timeout="0">
+  <con:settings id="eb9b7135-fcca-4038-83a2-74f49f5c16aa">
     <con:setting id="cd155ac0-cd1f-46db-a3a7-dc69379cb141fileName">Test-Case-2</con:setting>
   </con:settings>
   <con:testStep type="datasource" name="Data Source" id="01b65994-92cc-4f39-a8e6-732fcdd66998">
     <con:settings/>
-    <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:DataSourceStep">
       <con:dataSource type="Excel">
         <con:configuration>
-          <file>C:/Users/sarah.souza/OneDrive - SmartBear Software, Inc/Excel/pokemans.xlsx</file>
+          <file>C:/Users/sarah.souza/Documents/ReadyAPI Project Files/Excel/150pokemon.xlsx</file>
           <worksheet/>
           <cell>A1</cell>
           <ignoreEmpty>false</ignoreEmpty>
@@ -24,7 +24,7 @@
   </con:testStep>
   <con:testStep type="restrequest" name="REST Request" id="2bb68738-7e2b-476e-a138-110ff3f72185">
     <con:settings/>
-    <con:config service="https://pokeapi.co" resourcePath="/api/v2/pokemon/{pokemon_name}" methodName="GetPokemonInfo" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="https://pokeapi.co" resourcePath="/api/v2/pokemon/{pokemon_name}" methodName="GetPokemonInfo" xsi:type="con:RestRequestStep">
       <con:restRequest name="REST Request" id="3083215e-63c8-4921-b446-55fd1318d0ba" mediaType="application/json">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>

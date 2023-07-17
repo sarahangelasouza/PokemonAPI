@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:restMockAction name="/api/v2/pokemon/{pokemon_name}" method="GET" resourcePath="/api/v2/pokemon/{pokemon_name}" id="449d34e9-c248-45d3-9c41-fc4cd5c226e3" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:restMockAction xmlns:con="http://eviware.com/soapui/config" name="/api/v2/pokemon/{pokemon_name}" method="GET" resourcePath="/api/v2/pokemon/{pokemon_name}" id="449d34e9-c248-45d3-9c41-fc4cd5c226e3">
+  <con:settings id="68da733a-bb5f-460d-bb5d-dea81c254405">
     <con:setting id="449d34e9-c248-45d3-9c41-fc4cd5c226e3fileName">%2Fapi%2Fv2%2Fpokemon%2F%7Bpokemon_name%7D</con:setting>
   </con:settings>
   <con:defaultResponse>Response 1</con:defaultResponse>
