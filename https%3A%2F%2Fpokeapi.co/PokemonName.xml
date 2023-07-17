@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="PokemonName" path="/api/v2/pokemon/{pokemon_name}" id="96e58f47-bea0-4dd3-9053-f633775968b6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" name="PokemonName" path="/api/v2/pokemon/{pokemon_name}" id="96e58f47-bea0-4dd3-9053-f633775968b6">
+  <con:settings id="aa252651-7e15-4e40-b9f4-1d3e54b5f75b">
     <con:setting id="96e58f47-bea0-4dd3-9053-f633775968b6fileName">PokemonName</con:setting>
   </con:settings>
   <con:parameters>

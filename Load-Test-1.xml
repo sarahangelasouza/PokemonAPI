@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:loadUiTest name="Load Test 1" id="549e60b3-8b5e-4bab-91a4-12f88016c8b3" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:loadUiTest xmlns:con="http://eviware.com/soapui/config" name="Load Test 1" id="549e60b3-8b5e-4bab-91a4-12f88016c8b3">
+  <con:settings id="a392b6ba-6ab9-4a15-8e9f-0244be813dc4">
     <con:setting id="soapUIObjectSourceId">d008753a-6635-48b9-a210-e83516f3a85b</con:setting>
     <con:setting id="soapUIObjectSourceType">soapUIObjectSourceType_TestCase</con:setting>
     <con:setting id="IncludeOverview">true</con:setting>
@@ -13,7 +13,7 @@
     <con:setting id="FlowLayout">false</con:setting>
     <con:setting id="549e60b3-8b5e-4bab-91a4-12f88016c8b3fileName">Load-Test-1</con:setting>
   </con:settings>
-  <con1:loadui-project id="3888eab0-8ed0-4e93-85e7-b1df83bc1f66" label="Load Test 1" xmlns:con1="http://eviware.com/loadui/config">
+  <con1:loadui-project xmlns:con1="http://eviware.com/loadui/config" id="3888eab0-8ed0-4e93-85e7-b1df83bc1f66" label="Load Test 1">
     <con1:properties>
       <con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/>
       <con1:property propagates="true" key="CanvasItem.abortOnFinish" type="java.lang.Boolean">false</con1:property>

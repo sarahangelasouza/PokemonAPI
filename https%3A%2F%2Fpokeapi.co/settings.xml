@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:RestService" id="a3e92c05-2775-466c-844f-147b61565bc3" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://pokeapi.co" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" xsi:type="con:RestService" id="a3e92c05-2775-466c-844f-147b61565bc3" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://pokeapi.co" type="rest">
+  <con:settings id="fa409797-a51b-4f03-954b-50bbda369068">
     <con:setting id="a3e92c05-2775-466c-844f-147b61565bc3fileName">https%3A%2F%2Fpokeapi.co</con:setting>
   </con:settings>
   <con:definitionCache type="TEXT" rootPart=""/>

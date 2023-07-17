@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="d008753a-6635-48b9-a210-e83516f3a85b" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="https://pokeapi.co Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
+<con:testCase xmlns:con="http://eviware.com/soapui/config" id="d008753a-6635-48b9-a210-e83516f3a85b" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="https://pokeapi.co Test Case 1" searchProperties="true" timeout="0">
+  <con:settings id="ea7efe4a-b8f5-44dd-b081-e337595e0009">
     <con:setting id="d008753a-6635-48b9-a210-e83516f3a85bfileName">https%3A%2F%2Fpokeapi.co-Test-Case-1</con:setting>
   </con:settings>
   <con:testStep type="restrequest" name="Request 1" id="1827f673-75a8-4dab-9464-bd4d048eaeff">
     <con:settings/>
-    <con:config service="https://pokeapi.co" resourcePath="/api/v2/pokemon/{pokemon_name}" methodName="GetPokemonInfo" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="https://pokeapi.co" resourcePath="/api/v2/pokemon/{pokemon_name}" methodName="GetPokemonInfo" xsi:type="con:RestRequestStep">
       <con:restRequest name="Request 1" id="3083215e-63c8-4921-b446-55fd1318d0ba" mediaType="application/json">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
