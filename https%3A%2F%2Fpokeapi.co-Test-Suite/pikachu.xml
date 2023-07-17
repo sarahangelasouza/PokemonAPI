@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase xmlns:con="http://eviware.com/soapui/config" id="025b2c46-dfaa-49c9-97f6-14fcb2171dc4" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="pikachu" searchProperties="true" timeout="0">
+  <con:settings id="92403247-e6cd-4e46-b447-9a44dca547e8">
+    <con:setting id="025b2c46-dfaa-49c9-97f6-14fcb2171dc4fileName">pikachu</con:setting>
+  </con:settings>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
