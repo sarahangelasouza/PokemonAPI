@@ -3,6 +3,12 @@
   <con:settings id="92403247-e6cd-4e46-b447-9a44dca547e8">
     <con:setting id="025b2c46-dfaa-49c9-97f6-14fcb2171dc4fileName">pikachu</con:setting>
   </con:settings>
+  <con:testStep type="groovy" name="Groovy Script" id="b2f5ca05-079b-4ad3-a088-edb7a4dc9d8f">
+    <con:settings/>
+    <con:config>
+      <script>log.info "pikachu"</script>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
